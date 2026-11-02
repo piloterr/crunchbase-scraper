@@ -10,7 +10,7 @@ using var http = new HttpClient { Timeout = TimeSpan.FromSeconds(60) };
 http.DefaultRequestHeaders.Add("x-api-key", apiKey);
 
 var query =
-    "query=" + Uri.EscapeDataString("elon-musk");
+    "query=" + Uri.EscapeDataString("alex-martin");
 
 var response = await http.GetAsync("https://api.piloterr.com/v2/crunchbase/people/info?" + query);
 var body = await response.Content.ReadAsStringAsync();

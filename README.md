@@ -881,7 +881,7 @@ response = requests.get(
     "https://api.piloterr.com/v2/crunchbase/people/info",
     headers={"x-api-key": os.environ["PILOTERR_API_KEY"]},
     params={
-        "query": "elon-musk",
+        "query": "alex-martin",
     },
     timeout=60,
 )
@@ -960,7 +960,7 @@ type CrunchbasePeopleInfo = {
 };
 
 const params = new URLSearchParams({
-  "query": "elon-musk",
+  "query": "alex-martin",
 });
 
 const response = await fetch(`https://api.piloterr.com/v2/crunchbase/people/info?${params}`, {
@@ -981,7 +981,7 @@ POST https://api.piloterr.com/v2/crunchbase/people/info
 x-api-key: YOUR_API_KEY
 Content-Type: application/json
 
-{"query": "elon-musk"}
+{"query": "alex-martin"}
 ```
 </details>
 
@@ -1258,7 +1258,7 @@ Any language that can make an HTTP request. This README shows Python and TypeScr
 - [Europages Scraper API](https://github.com/piloterr/europages-scraper)
 - [Fiverr Scraper API](https://github.com/piloterr/fiverr-scraper)
 - [G2 Scraper API](https://github.com/piloterr/g2-scraper)
-- [github-scraper](https://github.com/piloterr/github-scraper)
+- [GitHub Scraper API](https://github.com/piloterr/github-scraper)
 - [Glassdoor Scraper API](https://github.com/piloterr/glassdoor-scraper)
 - [All Piloterr scrapers on GitHub](https://github.com/piloterr)
 

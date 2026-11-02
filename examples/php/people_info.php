@@ -3,7 +3,7 @@
 // Usage: PILOTERR_API_KEY=your-key php people_info.php
 
 $params = http_build_query([
-    'query' => 'elon-musk',
+    'query' => 'alex-martin',
 ]);
 
 $ch = curl_init('https://api.piloterr.com/v2/crunchbase/people/info?' . $params);

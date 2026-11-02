@@ -15,7 +15,7 @@ import (
 
 func main() {
 	params := url.Values{}
-	params.Set("query", "elon-musk")
+	params.Set("query", "alex-martin")
 
 	req, _ := http.NewRequest("GET", "https://api.piloterr.com/v2/crunchbase/people/info?"+params.Encode(), nil)
 	req.Header.Set("x-api-key", os.Getenv("PILOTERR_API_KEY"))

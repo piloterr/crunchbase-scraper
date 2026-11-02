@@ -5,4 +5,4 @@ set -euo pipefail
 
 curl -sS -G "https://api.piloterr.com/v2/crunchbase/people/info" \
   -H "x-api-key: ${PILOTERR_API_KEY}" \
-  --data-urlencode query=elon-musk
+  --data-urlencode query=alex-martin

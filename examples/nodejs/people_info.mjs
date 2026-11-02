@@ -2,7 +2,7 @@
 // Usage: PILOTERR_API_KEY=your-key node people_info.mjs
 
 const params = new URLSearchParams({
-  "query": "elon-musk",
+  "query": "alex-martin",
 });
 
 const response = await fetch(`https://api.piloterr.com/v2/crunchbase/people/info?${params}`, {
