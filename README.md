@@ -82,7 +82,7 @@ response = requests.get(
     params={
         "query": "openai",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -321,7 +321,7 @@ response = requests.get(
     params={
         "query": "london-tech-week-2025",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -553,7 +553,7 @@ response = requests.get(
     params={
         "query": "openai-secondary-market--3bab6e98",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -733,7 +733,7 @@ response = requests.get(
     params={
         "days_since_announcement": "30",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -883,7 +883,7 @@ response = requests.get(
     params={
         "query": "alex-martin",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -1105,7 +1105,7 @@ response = requests.get(
     params={
         "query": "openai",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
